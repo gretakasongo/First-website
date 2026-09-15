@@ -1,0 +1,32 @@
+/* Enable scrolling for the entire page if content overflows */
+body {
+    overflow: auto; /* or overflow: scroll; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Center the main heading <h1> */
+h1 {
+    text-align: center;
+}
+
+/* Underline the sub-heading <h2> */
+h2 {
+    text-decoration: underline;
+}
+
+/* Apply Google Fonts specifically to the paragraph <p> */
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Set image opacity (not invisible, not 100% opaque) */
+.styled-image {
+    opacity: 0.7;
+}
+
+/* Add a dotted colored border to the bottom section container */
+.bottom-section {
+    border: 3px dotted blue;
+    padding: 15px;
+    margin-top: 15px;
+}
